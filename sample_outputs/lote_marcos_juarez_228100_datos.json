@@ -1,0 +1,521 @@
+{
+  "metricas": {
+    "ndvi_medio": 0.3903,
+    "evi_medio": 0.2434,
+    "bsi_medio": 0.1673,
+    "nbr_medio": 0.0158,
+    "nbr_min": -0.2254,
+    "ndvi_min": 0.1601,
+    "rvi_medio": 0.5929,
+    "rvi_disponible": true
+  },
+  "serie_ndvi": [
+    {
+      "fecha": "2023-10-01",
+      "ndvi": 0.1959
+    },
+    {
+      "fecha": "2023-10-06",
+      "ndvi": 0.1938
+    },
+    {
+      "fecha": "2023-10-08",
+      "ndvi": 0.1983
+    },
+    {
+      "fecha": "2023-10-13",
+      "ndvi": 0.2023
+    },
+    {
+      "fecha": "2023-10-26",
+      "ndvi": 0.183
+    },
+    {
+      "fecha": "2023-10-28",
+      "ndvi": 0.2628
+    },
+    {
+      "fecha": "2023-11-05",
+      "ndvi": 0.3112
+    },
+    {
+      "fecha": "2023-11-07",
+      "ndvi": 0.3166
+    },
+    {
+      "fecha": "2023-11-12",
+      "ndvi": 0.3589
+    },
+    {
+      "fecha": "2023-11-15",
+      "ndvi": 0.3666
+    },
+    {
+      "fecha": "2023-11-22",
+      "ndvi": 0.4845
+    },
+    {
+      "fecha": "2023-11-25",
+      "ndvi": 0.4549
+    },
+    {
+      "fecha": "2023-11-27",
+      "ndvi": 0.493
+    },
+    {
+      "fecha": "2023-11-30",
+      "ndvi": 0.5338
+    },
+    {
+      "fecha": "2023-12-02",
+      "ndvi": 0.5088
+    },
+    {
+      "fecha": "2023-12-07",
+      "ndvi": 0.6476
+    },
+    {
+      "fecha": "2023-12-10",
+      "ndvi": 0.6823
+    },
+    {
+      "fecha": "2023-12-12",
+      "ndvi": 0.6661
+    },
+    {
+      "fecha": "2023-12-15",
+      "ndvi": 0.7034
+    },
+    {
+      "fecha": "2023-12-25",
+      "ndvi": 0.9022
+    },
+    {
+      "fecha": "2023-12-30",
+      "ndvi": 0.8961
+    },
+    {
+      "fecha": "2024-01-01",
+      "ndvi": 0.899
+    },
+    {
+      "fecha": "2024-01-19",
+      "ndvi": 0.8984
+    },
+    {
+      "fecha": "2024-01-24",
+      "ndvi": 0.899
+    },
+    {
+      "fecha": "2024-01-26",
+      "ndvi": 0.8716
+    },
+    {
+      "fecha": "2024-01-29",
+      "ndvi": 0.8838
+    },
+    {
+      "fecha": "2024-02-03",
+      "ndvi": 0.8262
+    },
+    {
+      "fecha": "2024-02-05",
+      "ndvi": 0.832
+    },
+    {
+      "fecha": "2024-02-15",
+      "ndvi": 0.6947
+    },
+    {
+      "fecha": "2024-02-20",
+      "ndvi": 0.6941
+    },
+    {
+      "fecha": "2024-03-04",
+      "ndvi": 0.6176
+    },
+    {
+      "fecha": "2024-03-06",
+      "ndvi": 0.5704
+    },
+    {
+      "fecha": "2024-03-09",
+      "ndvi": 0.6139
+    },
+    {
+      "fecha": "2024-03-11",
+      "ndvi": 0.4762
+    },
+    {
+      "fecha": "2024-03-21",
+      "ndvi": 0.3509
+    },
+    {
+      "fecha": "2024-03-24",
+      "ndvi": 0.3357
+    },
+    {
+      "fecha": "2024-03-26",
+      "ndvi": 0.3392
+    },
+    {
+      "fecha": "2024-03-29",
+      "ndvi": 0.3499
+    },
+    {
+      "fecha": "2024-04-05",
+      "ndvi": 0.3446
+    },
+    {
+      "fecha": "2024-04-08",
+      "ndvi": 0.358
+    },
+    {
+      "fecha": "2024-04-18",
+      "ndvi": 0.3408
+    },
+    {
+      "fecha": "2024-04-20",
+      "ndvi": 0.2928
+    },
+    {
+      "fecha": "2024-04-23",
+      "ndvi": 0.1399
+    },
+    {
+      "fecha": "2024-04-28",
+      "ndvi": 0.3138
+    }
+  ],
+  "serie_nbr": [
+    {
+      "fecha": "2023-10-01",
+      "nbr": -0.185
+    },
+    {
+      "fecha": "2023-10-06",
+      "nbr": -0.1787
+    },
+    {
+      "fecha": "2023-10-08",
+      "nbr": -0.1852
+    },
+    {
+      "fecha": "2023-10-13",
+      "nbr": -0.1655
+    },
+    {
+      "fecha": "2023-10-26",
+      "nbr": -0.0255
+    },
+    {
+      "fecha": "2023-10-28",
+      "nbr": -0.1109
+    },
+    {
+      "fecha": "2023-11-05",
+      "nbr": -0.0611
+    },
+    {
+      "fecha": "2023-11-07",
+      "nbr": -0.0986
+    },
+    {
+      "fecha": "2023-11-12",
+      "nbr": -0.0291
+    },
+    {
+      "fecha": "2023-11-15",
+      "nbr": -0.0161
+    },
+    {
+      "fecha": "2023-11-22",
+      "nbr": 0.1245
+    },
+    {
+      "fecha": "2023-11-25",
+      "nbr": 0.1224
+    },
+    {
+      "fecha": "2023-11-27",
+      "nbr": 0.1575
+    },
+    {
+      "fecha": "2023-11-30",
+      "nbr": 0.1967
+    },
+    {
+      "fecha": "2023-12-02",
+      "nbr": 0.2158
+    },
+    {
+      "fecha": "2023-12-07",
+      "nbr": 0.3344
+    },
+    {
+      "fecha": "2023-12-10",
+      "nbr": 0.3669
+    },
+    {
+      "fecha": "2023-12-12",
+      "nbr": 0.3639
+    },
+    {
+      "fecha": "2023-12-15",
+      "nbr": 0.4835
+    },
+    {
+      "fecha": "2023-12-25",
+      "nbr": 0.6627
+    },
+    {
+      "fecha": "2023-12-30",
+      "nbr": 0.6724
+    },
+    {
+      "fecha": "2024-01-01",
+      "nbr": 0.6539
+    },
+    {
+      "fecha": "2024-01-19",
+      "nbr": 0.6817
+    },
+    {
+      "fecha": "2024-01-24",
+      "nbr": 0.6997
+    },
+    {
+      "fecha": "2024-01-26",
+      "nbr": 0.6684
+    },
+    {
+      "fecha": "2024-01-29",
+      "nbr": 0.6844
+    },
+    {
+      "fecha": "2024-02-03",
+      "nbr": 0.6384
+    },
+    {
+      "fecha": "2024-02-05",
+      "nbr": 0.6218
+    },
+    {
+      "fecha": "2024-02-15",
+      "nbr": 0.4375
+    },
+    {
+      "fecha": "2024-02-20",
+      "nbr": 0.4089
+    },
+    {
+      "fecha": "2024-03-04",
+      "nbr": 0.2865
+    },
+    {
+      "fecha": "2024-03-06",
+      "nbr": 0.2443
+    },
+    {
+      "fecha": "2024-03-09",
+      "nbr": 0.4248
+    },
+    {
+      "fecha": "2024-03-11",
+      "nbr": 0.1985
+    },
+    {
+      "fecha": "2024-03-21",
+      "nbr": -0.0319
+    },
+    {
+      "fecha": "2024-03-24",
+      "nbr": -0.0479
+    },
+    {
+      "fecha": "2024-03-26",
+      "nbr": -0.0671
+    },
+    {
+      "fecha": "2024-03-29",
+      "nbr": -0.0741
+    },
+    {
+      "fecha": "2024-04-05",
+      "nbr": -0.0446
+    },
+    {
+      "fecha": "2024-04-08",
+      "nbr": -0.0499
+    },
+    {
+      "fecha": "2024-04-18",
+      "nbr": -0.1004
+    },
+    {
+      "fecha": "2024-04-20",
+      "nbr": -0.0683
+    },
+    {
+      "fecha": "2024-04-23",
+      "nbr": -0.0389
+    },
+    {
+      "fecha": "2024-04-28",
+      "nbr": -0.0797
+    }
+  ],
+  "caidas_abruptas": [],
+  "eventos_quema": [
+    {
+      "fecha": "2023-10-08",
+      "nbr": -0.1852,
+      "severidad": "moderada",
+      "duracion_obs": 10
+    },
+    {
+      "fecha": "2024-04-18",
+      "nbr": -0.1004,
+      "severidad": "moderada",
+      "duracion_obs": 10
+    }
+  ],
+  "dnbr_eventos": [
+    {
+      "fecha": "2024-04-18",
+      "nbr_pre": 0.1985,
+      "nbr_post": -0.1004,
+      "dnbr": 0.2989,
+      "severidad_usgs": "moderada-baja"
+    }
+  ],
+  "disponibilidad_datos": {
+    "observaciones_por_mes": {
+      "2023-10": 6,
+      "2023-11": 8,
+      "2023-12": 7,
+      "2024-01": 5,
+      "2024-02": 4,
+      "2024-03": 8,
+      "2024-04": 6
+    },
+    "meses_con_gaps": [],
+    "total_observaciones": 44
+  },
+  "comparacion_zonal": {
+    "nombre_departamento": "Marcos Juarez",
+    "provincia": "Cordoba",
+    "ndvi_departamental": 0.4054,
+    "ndvi_depto_stddev": 0.128,
+    "bsi_departamental": 0.1235,
+    "nbr_departamental": 0.0663,
+    "ndvi_z_score": -0.12,
+    "bsi_z_score": 0.44,
+    "ndvi_diferencia": -0.0151
+  },
+  "diagnostico": {
+    "consistente": false,
+    "criterios": [
+      {
+        "pregunta": "¿Hubo labranza?",
+        "resultado": "NO",
+        "evidencia": [
+          "RVI indica superficie no labrada",
+          "Sin caídas abruptas de cobertura",
+          "BSI dentro del rango departamental (z=+0.44)"
+        ]
+      },
+      {
+        "pregunta": "¿Hay cobertura permanente?",
+        "resultado": "SÍ",
+        "evidencia": [
+          "NDVI bajo la media departamental (z=-0.12)",
+          "NDVI mínimo 0.16 — rastrojo presente"
+        ]
+      },
+      {
+        "pregunta": "¿Hubo quema de rastrojo?",
+        "resultado": "POSIBLE",
+        "evidencia": [
+          "2023-10-08: NBR=-0.19 (severidad moderada)",
+          "2024-04-18: NBR=-0.10, dNBR=0.30 (moderada-baja USGS)",
+          "NBR mediano (0.02) por debajo del depto (0.07)"
+        ]
+      }
+    ],
+    "conclusion": "Las imágenes satelitales del período 2023-10-01 a 2024-04-30 presentan indicadores que requieren verificación adicional: posible quema. Se recomienda revisión por profesional agronómico. Nota: confianza del análisis MEDIA (67/100).",
+    "confianza": {
+      "score": 67,
+      "categoria": "MEDIA",
+      "requiere_revision": true,
+      "detalle": [
+        {
+          "componente": "Disponibilidad de datos",
+          "puntaje": 25,
+          "nota": "44 obs, 0 meses con gaps"
+        },
+        {
+          "componente": "Convergencia SAR/óptico",
+          "puntaje": 5,
+          "nota": "CONTRADICCIÓN: SAR indica no labranza pero BSI alto"
+        },
+        {
+          "componente": "Consistencia temporal",
+          "puntaje": 25,
+          "nota": "0 caída(s) abrupta(s) detectada(s)"
+        },
+        {
+          "componente": "Posición zonal",
+          "puntaje": 12,
+          "nota": "z-score = -0.12 vs departamento"
+        }
+      ]
+    }
+  },
+  "imagenes": {
+    "bbox": {
+      "west": -62.08080632000001,
+      "east": -62.06615991999999,
+      "south": -32.65698156000001,
+      "north": -32.63855090999997
+    }
+  },
+  "metadata": {
+    "superficie_ha": 190.85,
+    "centroide_lat": -32.6478,
+    "centroide_lon": -62.0735,
+    "poligono_coords": [
+      [
+        -62.07677796,
+        -32.63855091
+      ],
+      [
+        -62.08080632,
+        -32.65510184
+      ],
+      [
+        -62.07018604,
+        -32.65698156
+      ],
+      [
+        -62.06906391,
+        -32.65236951
+      ],
+      [
+        -62.06756758,
+        -32.64621876
+      ],
+      [
+        -62.06615992,
+        -32.64043175
+      ],
+      [
+        -62.07677796,
+        -32.63855091
+      ]
+    ],
+    "fecha_inicio": "2023-10-01",
+    "fecha_fin": "2024-04-30",
+    "fecha_procesamiento": "2026-03-23 07:36"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "geojson": "sample_polygons/lote_santa_fe.geojson",
+    "fecha_inicio": "2023-10-01",
+    "fecha_fin": "2024-04-30",
+    "practica_real": "siembra_directa",
+    "fuente": "Ing. Agr. Juan Pérez — visita a campo 2024-03-15"
+  },
+  {
+    "geojson": "sample_polygons/lote_santa_fe.geojson",
+    "fecha_inicio": "2022-10-01",
+    "fecha_fin": "2023-04-30",
+    "practica_real": "convencional",
+    "fuente": "Ing. Agr. María González — registro de labores 2023-02-20"
+  }
+]

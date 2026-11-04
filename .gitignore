@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.env
+# Never commit credentials
+*service-account*.json
+*credentials*.json
+*.pem
+*.key
+.config/earthengine/

@@ -1,0 +1,347 @@
+{
+  "metricas": {
+    "ndvi_medio": 0.406,
+    "evi_medio": 0.2397,
+    "bsi_medio": 0.1218,
+    "nbr_medio": 0.0689,
+    "nbr_min": -0.2334,
+    "ndvi_min": 0.1418,
+    "rvi_medio": 0.5962,
+    "rvi_disponible": true
+  },
+  "serie_ndvi": [
+    {
+      "fecha": "2023-10-01",
+      "ndvi": 0.2907
+    },
+    {
+      "fecha": "2023-10-06",
+      "ndvi": 0.2808
+    },
+    {
+      "fecha": "2023-10-26",
+      "ndvi": 0.1312
+    },
+    {
+      "fecha": "2023-11-05",
+      "ndvi": 0.2562
+    },
+    {
+      "fecha": "2023-11-15",
+      "ndvi": 0.2339
+    },
+    {
+      "fecha": "2023-11-25",
+      "ndvi": 0.3641
+    },
+    {
+      "fecha": "2023-11-30",
+      "ndvi": 0.3428
+    },
+    {
+      "fecha": "2023-12-10",
+      "ndvi": 0.5051
+    },
+    {
+      "fecha": "2023-12-15",
+      "ndvi": 0.574
+    },
+    {
+      "fecha": "2023-12-25",
+      "ndvi": 0.7405
+    },
+    {
+      "fecha": "2023-12-30",
+      "ndvi": 0.7378
+    },
+    {
+      "fecha": "2024-01-19",
+      "ndvi": 0.8642
+    },
+    {
+      "fecha": "2024-01-24",
+      "ndvi": 0.8649
+    },
+    {
+      "fecha": "2024-01-29",
+      "ndvi": 0.847
+    },
+    {
+      "fecha": "2024-02-03",
+      "ndvi": 0.8203
+    },
+    {
+      "fecha": "2024-03-04",
+      "ndvi": 0.7124
+    },
+    {
+      "fecha": "2024-03-09",
+      "ndvi": 0.5934
+    },
+    {
+      "fecha": "2024-03-24",
+      "ndvi": 0.388
+    },
+    {
+      "fecha": "2024-03-29",
+      "ndvi": 0.3231
+    },
+    {
+      "fecha": "2024-04-08",
+      "ndvi": 0.2709
+    },
+    {
+      "fecha": "2024-04-18",
+      "ndvi": 0.2647
+    },
+    {
+      "fecha": "2024-04-28",
+      "ndvi": 0.2559
+    }
+  ],
+  "serie_nbr": [
+    {
+      "fecha": "2023-10-01",
+      "nbr": -0.0626
+    },
+    {
+      "fecha": "2023-10-06",
+      "nbr": -0.0679
+    },
+    {
+      "fecha": "2023-10-26",
+      "nbr": -0.0475
+    },
+    {
+      "fecha": "2023-11-05",
+      "nbr": -0.0808
+    },
+    {
+      "fecha": "2023-11-15",
+      "nbr": -0.0771
+    },
+    {
+      "fecha": "2023-11-25",
+      "nbr": 0.0356
+    },
+    {
+      "fecha": "2023-11-30",
+      "nbr": 0.0167
+    },
+    {
+      "fecha": "2023-12-10",
+      "nbr": 0.1723
+    },
+    {
+      "fecha": "2023-12-15",
+      "nbr": 0.2743
+    },
+    {
+      "fecha": "2023-12-25",
+      "nbr": 0.4657
+    },
+    {
+      "fecha": "2023-12-30",
+      "nbr": 0.4695
+    },
+    {
+      "fecha": "2024-01-19",
+      "nbr": 0.6191
+    },
+    {
+      "fecha": "2024-01-24",
+      "nbr": 0.6249
+    },
+    {
+      "fecha": "2024-01-29",
+      "nbr": 0.6052
+    },
+    {
+      "fecha": "2024-02-03",
+      "nbr": 0.5933
+    },
+    {
+      "fecha": "2024-03-04",
+      "nbr": 0.4099
+    },
+    {
+      "fecha": "2024-03-09",
+      "nbr": 0.3352
+    },
+    {
+      "fecha": "2024-03-24",
+      "nbr": -0.0081
+    },
+    {
+      "fecha": "2024-03-29",
+      "nbr": -0.0746
+    },
+    {
+      "fecha": "2024-04-08",
+      "nbr": -0.044
+    },
+    {
+      "fecha": "2024-04-18",
+      "nbr": -0.1469
+    },
+    {
+      "fecha": "2024-04-28",
+      "nbr": -0.144
+    }
+  ],
+  "caidas_abruptas": [],
+  "eventos_quema": [
+    {
+      "fecha": "2023-11-05",
+      "nbr": -0.0808,
+      "severidad": "leve",
+      "duracion_obs": 5
+    },
+    {
+      "fecha": "2024-04-18",
+      "nbr": -0.1469,
+      "severidad": "moderada",
+      "duracion_obs": 5
+    }
+  ],
+  "dnbr_eventos": [
+    {
+      "fecha": "2024-04-18",
+      "nbr_pre": 0.3352,
+      "nbr_post": -0.1469,
+      "dnbr": 0.4821,
+      "severidad_usgs": "moderada-alta"
+    }
+  ],
+  "disponibilidad_datos": {
+    "observaciones_por_mes": {
+      "2023-10": 3,
+      "2023-11": 4,
+      "2023-12": 4,
+      "2024-01": 3,
+      "2024-02": 1,
+      "2024-03": 4,
+      "2024-04": 3
+    },
+    "meses_con_gaps": [
+      "2024-02"
+    ],
+    "total_observaciones": 22
+  },
+  "comparacion_zonal": {
+    "nombre_departamento": "Union",
+    "provincia": "Cordoba",
+    "ndvi_departamental": 0.4323,
+    "ndvi_depto_stddev": 0.139,
+    "bsi_departamental": 0.0931,
+    "nbr_departamental": 0.1041,
+    "ndvi_z_score": -0.19,
+    "bsi_z_score": 0.27,
+    "ndvi_diferencia": -0.0263
+  },
+  "diagnostico": {
+    "consistente": false,
+    "criterios": [
+      {
+        "pregunta": "¿Hubo labranza?",
+        "resultado": "NO",
+        "evidencia": [
+          "RVI indica superficie no labrada",
+          "Sin caídas abruptas de cobertura",
+          "BSI dentro del rango departamental (z=+0.27)"
+        ]
+      },
+      {
+        "pregunta": "¿Hay cobertura permanente?",
+        "resultado": "SÍ",
+        "evidencia": [
+          "NDVI bajo la media departamental (z=-0.19)",
+          "NDVI mínimo 0.14 — rastrojo presente"
+        ]
+      },
+      {
+        "pregunta": "¿Hubo quema de rastrojo?",
+        "resultado": "POSIBLE",
+        "evidencia": [
+          "2023-11-05: NBR=-0.08 (severidad leve)",
+          "2024-04-18: NBR=-0.15, dNBR=0.48 (moderada-alta USGS)",
+          "NBR mediano (0.07) en rango departamental (0.10)"
+        ]
+      }
+    ],
+    "conclusion": "Las imágenes satelitales del período 2023-10-01 a 2024-04-30 presentan indicadores que requieren verificación adicional: posible quema. Se recomienda revisión por profesional agronómico.",
+    "confianza": {
+      "score": 86,
+      "categoria": "ALTA",
+      "requiere_revision": false,
+      "detalle": [
+        {
+          "componente": "Disponibilidad de datos",
+          "puntaje": 24,
+          "nota": "22 obs, 1 meses con gaps"
+        },
+        {
+          "componente": "Convergencia SAR/óptico",
+          "puntaje": 25,
+          "nota": "Indicadores convergentes"
+        },
+        {
+          "componente": "Consistencia temporal",
+          "puntaje": 25,
+          "nota": "0 caída(s) abrupta(s) detectada(s)"
+        },
+        {
+          "componente": "Posición zonal",
+          "puntaje": 12,
+          "nota": "z-score = -0.19 vs departamento"
+        }
+      ]
+    }
+  },
+  "imagenes": {
+    "bbox": {
+      "west": -62.68799156,
+      "east": -62.66373354,
+      "south": -32.87823221000003,
+      "north": -32.863194959999966
+    }
+  },
+  "metadata": {
+    "superficie_ha": 261.09,
+    "centroide_lat": -32.8707,
+    "centroide_lon": -62.6758,
+    "poligono_coords": [
+      [
+        -62.66652604,
+        -32.87823221
+      ],
+      [
+        -62.66373354,
+        -32.86697218
+      ],
+      [
+        -62.67443313,
+        -32.86508403
+      ],
+      [
+        -62.68513228,
+        -32.86319496
+      ],
+      [
+        -62.68799156,
+        -32.87467344
+      ],
+      [
+        -62.68602468,
+        -32.87475594
+      ],
+      [
+        -62.66652604,
+        -32.87823221
+      ]
+    ],
+    "fecha_inicio": "2023-10-01",
+    "fecha_fin": "2024-04-30",
+    "fecha_procesamiento": "2026-03-23 07:35"
+  }
+}

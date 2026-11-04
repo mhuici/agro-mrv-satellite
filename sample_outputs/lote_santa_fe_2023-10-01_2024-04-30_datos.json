@@ -1,0 +1,312 @@
+{
+  "metricas": {
+    "ndvi_medio": 0.4291,
+    "evi_medio": 0.2538,
+    "bsi_medio": 0.1134,
+    "nbr_medio": 0.0526,
+    "nbr_min": -0.192,
+    "ndvi_min": 0.2023,
+    "rvi_medio": 0.0,
+    "rvi_disponible": false
+  },
+  "serie_ndvi": [
+    {
+      "fecha": "2023-10-08",
+      "ndvi": 0.3891
+    },
+    {
+      "fecha": "2023-10-13",
+      "ndvi": 0.3923
+    },
+    {
+      "fecha": "2023-10-28",
+      "ndvi": 0.385
+    },
+    {
+      "fecha": "2023-11-07",
+      "ndvi": 0.2991
+    },
+    {
+      "fecha": "2023-11-12",
+      "ndvi": 0.2683
+    },
+    {
+      "fecha": "2023-11-22",
+      "ndvi": 0.2555
+    },
+    {
+      "fecha": "2023-11-27",
+      "ndvi": 0.245
+    },
+    {
+      "fecha": "2023-12-12",
+      "ndvi": 0.3044
+    },
+    {
+      "fecha": "2023-12-22",
+      "ndvi": 0.5798
+    },
+    {
+      "fecha": "2024-01-01",
+      "ndvi": 0.5597
+    },
+    {
+      "fecha": "2024-01-26",
+      "ndvi": 0.8696
+    },
+    {
+      "fecha": "2024-02-15",
+      "ndvi": 0.8769
+    },
+    {
+      "fecha": "2024-02-20",
+      "ndvi": 0.8099
+    },
+    {
+      "fecha": "2024-03-06",
+      "ndvi": 0.8597
+    },
+    {
+      "fecha": "2024-03-21",
+      "ndvi": 0.6513
+    },
+    {
+      "fecha": "2024-03-26",
+      "ndvi": 0.5107
+    },
+    {
+      "fecha": "2024-04-05",
+      "ndvi": 0.4112
+    },
+    {
+      "fecha": "2024-04-20",
+      "ndvi": 0.2106
+    }
+  ],
+  "serie_nbr": [
+    {
+      "fecha": "2023-10-08",
+      "nbr": 0.0559
+    },
+    {
+      "fecha": "2023-10-13",
+      "nbr": 0.0709
+    },
+    {
+      "fecha": "2023-10-28",
+      "nbr": 0.0507
+    },
+    {
+      "fecha": "2023-11-07",
+      "nbr": -0.0678
+    },
+    {
+      "fecha": "2023-11-12",
+      "nbr": -0.0925
+    },
+    {
+      "fecha": "2023-11-22",
+      "nbr": -0.0874
+    },
+    {
+      "fecha": "2023-11-27",
+      "nbr": -0.1067
+    },
+    {
+      "fecha": "2023-12-12",
+      "nbr": -0.0622
+    },
+    {
+      "fecha": "2023-12-22",
+      "nbr": 0.1886
+    },
+    {
+      "fecha": "2024-01-01",
+      "nbr": 0.2219
+    },
+    {
+      "fecha": "2024-01-26",
+      "nbr": 0.6116
+    },
+    {
+      "fecha": "2024-02-15",
+      "nbr": 0.6315
+    },
+    {
+      "fecha": "2024-02-20",
+      "nbr": 0.6099
+    },
+    {
+      "fecha": "2024-03-06",
+      "nbr": 0.6089
+    },
+    {
+      "fecha": "2024-03-21",
+      "nbr": 0.3288
+    },
+    {
+      "fecha": "2024-03-26",
+      "nbr": 0.1309
+    },
+    {
+      "fecha": "2024-04-05",
+      "nbr": 0.0017
+    },
+    {
+      "fecha": "2024-04-20",
+      "nbr": -0.1934
+    }
+  ],
+  "caidas_abruptas": [],
+  "eventos_quema": [
+    {
+      "fecha": "2023-11-27",
+      "nbr": -0.1067,
+      "severidad": "moderada",
+      "duracion_obs": 5
+    },
+    {
+      "fecha": "2024-04-20",
+      "nbr": -0.1934,
+      "severidad": "moderada",
+      "duracion_obs": 1
+    }
+  ],
+  "dnbr_eventos": [
+    {
+      "fecha": "2023-11-27",
+      "nbr_pre": 0.0507,
+      "nbr_post": -0.1067,
+      "dnbr": 0.1574,
+      "severidad_usgs": "baja"
+    },
+    {
+      "fecha": "2024-04-20",
+      "nbr_pre": 0.0017,
+      "nbr_post": -0.1934,
+      "dnbr": 0.1951,
+      "severidad_usgs": "baja"
+    }
+  ],
+  "disponibilidad_datos": {
+    "observaciones_por_mes": {
+      "2023-10": 3,
+      "2023-11": 4,
+      "2023-12": 2,
+      "2024-01": 2,
+      "2024-02": 2,
+      "2024-03": 3,
+      "2024-04": 2
+    },
+    "meses_con_gaps": [],
+    "total_observaciones": 18
+  },
+  "comparacion_zonal": {
+    "nombre_departamento": "San Lorenzo",
+    "provincia": "Santa Fe",
+    "ndvi_departamental": 0.4854,
+    "ndvi_depto_stddev": 0.1853,
+    "bsi_departamental": 0.0537,
+    "nbr_departamental": 0.1623,
+    "ndvi_z_score": -0.3,
+    "bsi_z_score": 0.42,
+    "ndvi_diferencia": -0.0563
+  },
+  "diagnostico": {
+    "consistente": false,
+    "criterios": [
+      {
+        "pregunta": "¿Hubo labranza?",
+        "resultado": "NO",
+        "evidencia": [
+          "Sin datos SAR disponibles para esta zona",
+          "Sin caídas abruptas de cobertura",
+          "BSI dentro del rango departamental (z=+0.42)"
+        ]
+      },
+      {
+        "pregunta": "¿Hay cobertura permanente?",
+        "resultado": "SÍ",
+        "evidencia": [
+          "NDVI bajo la media departamental (z=-0.30)",
+          "NDVI mínimo 0.20 — rastrojo presente"
+        ]
+      },
+      {
+        "pregunta": "¿Hubo quema de rastrojo?",
+        "resultado": "POSIBLE",
+        "evidencia": [
+          "2023-11-27: NBR=-0.11, dNBR=0.16 (baja USGS)",
+          "2024-04-20: NBR=-0.19, dNBR=0.20 (baja USGS)",
+          "NBR mediano (0.05) por debajo del depto (0.16)"
+        ]
+      }
+    ],
+    "conclusion": "Las imágenes satelitales del período 2023-10-01 a 2024-04-30 presentan indicadores que requieren verificación adicional: posible quema. Se recomienda revisión por profesional agronómico. Nota: confianza del análisis MEDIA (80/100).",
+    "confianza": {
+      "score": 80,
+      "categoria": "MEDIA",
+      "requiere_revision": true,
+      "detalle": [
+        {
+          "componente": "Disponibilidad de datos",
+          "puntaje": 25,
+          "nota": "18 obs, 0 meses con gaps"
+        },
+        {
+          "componente": "Convergencia (solo óptico)",
+          "puntaje": 18,
+          "nota": "Sin datos SAR — diagnóstico basado en NDVI+BSI (máx 18/25)"
+        },
+        {
+          "componente": "Consistencia temporal",
+          "puntaje": 25,
+          "nota": "0 caída(s) abrupta(s) detectada(s)"
+        },
+        {
+          "componente": "Posición zonal",
+          "puntaje": 12,
+          "nota": "z-score = -0.30 vs departamento"
+        }
+      ]
+    }
+  },
+  "imagenes": {
+    "bbox": {
+      "west": -61.00600000000001,
+      "east": -60.994,
+      "south": -33.00600014351283,
+      "north": -32.99399999999997
+    }
+  },
+  "metadata": {
+    "superficie_ha": 149.32,
+    "centroide_lat": -33.0,
+    "centroide_lon": -61.0,
+    "poligono_coords": [
+      [
+        -61.006,
+        -32.994
+      ],
+      [
+        -60.994,
+        -32.994
+      ],
+      [
+        -60.994,
+        -33.006
+      ],
+      [
+        -61.006,
+        -33.006
+      ],
+      [
+        -61.006,
+        -32.994
+      ]
+    ],
+    "fecha_inicio": "2023-10-01",
+    "fecha_fin": "2024-04-30",
+    "fecha_procesamiento": "2026-03-22 17:09"
+  }
+}

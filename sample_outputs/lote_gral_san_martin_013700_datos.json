@@ -1,0 +1,320 @@
+{
+  "metricas": {
+    "ndvi_medio": 0.4686,
+    "evi_medio": 0.3057,
+    "bsi_medio": 0.0722,
+    "nbr_medio": 0.1163,
+    "nbr_min": -0.1562,
+    "ndvi_min": 0.2307,
+    "rvi_medio": 0.7141,
+    "rvi_disponible": true
+  },
+  "serie_ndvi": [
+    {
+      "fecha": "2023-10-01",
+      "ndvi": 0.5242
+    },
+    {
+      "fecha": "2023-10-16",
+      "ndvi": 0.2814
+    },
+    {
+      "fecha": "2023-11-05",
+      "ndvi": 0.403
+    },
+    {
+      "fecha": "2023-11-15",
+      "ndvi": 0.4381
+    },
+    {
+      "fecha": "2023-11-20",
+      "ndvi": 0.3493
+    },
+    {
+      "fecha": "2023-11-25",
+      "ndvi": 0.3723
+    },
+    {
+      "fecha": "2023-12-10",
+      "ndvi": 0.4917
+    },
+    {
+      "fecha": "2023-12-25",
+      "ndvi": 0.6157
+    },
+    {
+      "fecha": "2024-01-19",
+      "ndvi": 0.6328
+    },
+    {
+      "fecha": "2024-01-24",
+      "ndvi": 0.5727
+    },
+    {
+      "fecha": "2024-01-29",
+      "ndvi": 0.4208
+    },
+    {
+      "fecha": "2024-02-03",
+      "ndvi": 0.353
+    },
+    {
+      "fecha": "2024-03-04",
+      "ndvi": 0.6276
+    },
+    {
+      "fecha": "2024-03-24",
+      "ndvi": 0.5776
+    },
+    {
+      "fecha": "2024-03-29",
+      "ndvi": 0.591
+    },
+    {
+      "fecha": "2024-04-18",
+      "ndvi": 0.511
+    },
+    {
+      "fecha": "2024-04-28",
+      "ndvi": 0.4681
+    }
+  ],
+  "serie_nbr": [
+    {
+      "fecha": "2023-10-01",
+      "nbr": 0.2279
+    },
+    {
+      "fecha": "2023-10-16",
+      "nbr": 0.0048
+    },
+    {
+      "fecha": "2023-11-05",
+      "nbr": 0.0557
+    },
+    {
+      "fecha": "2023-11-15",
+      "nbr": 0.0973
+    },
+    {
+      "fecha": "2023-11-20",
+      "nbr": -0.0185
+    },
+    {
+      "fecha": "2023-11-25",
+      "nbr": 0.0577
+    },
+    {
+      "fecha": "2023-12-10",
+      "nbr": 0.1203
+    },
+    {
+      "fecha": "2023-12-25",
+      "nbr": 0.2838
+    },
+    {
+      "fecha": "2024-01-19",
+      "nbr": 0.2849
+    },
+    {
+      "fecha": "2024-01-24",
+      "nbr": 0.2475
+    },
+    {
+      "fecha": "2024-01-29",
+      "nbr": 0.0768
+    },
+    {
+      "fecha": "2024-02-03",
+      "nbr": 0.0318
+    },
+    {
+      "fecha": "2024-03-04",
+      "nbr": 0.316
+    },
+    {
+      "fecha": "2024-03-24",
+      "nbr": 0.2302
+    },
+    {
+      "fecha": "2024-03-29",
+      "nbr": 0.2528
+    },
+    {
+      "fecha": "2024-04-18",
+      "nbr": 0.1674
+    },
+    {
+      "fecha": "2024-04-28",
+      "nbr": 0.0864
+    }
+  ],
+  "caidas_abruptas": [],
+  "eventos_quema": [
+    {
+      "fecha": "2023-11-20",
+      "nbr": -0.0185,
+      "severidad": "leve",
+      "duracion_obs": 1
+    }
+  ],
+  "dnbr_eventos": [
+    {
+      "fecha": "2023-11-20",
+      "nbr_pre": 0.0973,
+      "nbr_post": -0.0185,
+      "dnbr": 0.1158,
+      "severidad_usgs": "baja"
+    }
+  ],
+  "disponibilidad_datos": {
+    "observaciones_por_mes": {
+      "2023-10": 2,
+      "2023-11": 4,
+      "2023-12": 2,
+      "2024-01": 3,
+      "2024-02": 1,
+      "2024-03": 3,
+      "2024-04": 2
+    },
+    "meses_con_gaps": [
+      "2024-02"
+    ],
+    "total_observaciones": 17
+  },
+  "comparacion_zonal": {
+    "nombre_departamento": "General San Martin",
+    "provincia": "Cordoba",
+    "ndvi_departamental": 0.3977,
+    "ndvi_depto_stddev": 0.1249,
+    "bsi_departamental": 0.1137,
+    "nbr_departamental": 0.0543,
+    "ndvi_z_score": 0.57,
+    "bsi_z_score": -0.46,
+    "ndvi_diferencia": 0.0709
+  },
+  "diagnostico": {
+    "consistente": true,
+    "criterios": [
+      {
+        "pregunta": "¿Hubo labranza?",
+        "resultado": "NO",
+        "evidencia": [
+          "RVI indica superficie no labrada",
+          "Sin caídas abruptas de cobertura",
+          "BSI dentro del rango departamental (z=-0.46)"
+        ]
+      },
+      {
+        "pregunta": "¿Hay cobertura permanente?",
+        "resultado": "SÍ",
+        "evidencia": [
+          "NDVI sobre la media departamental (z=+0.57)",
+          "NDVI mínimo 0.23 — rastrojo presente"
+        ]
+      },
+      {
+        "pregunta": "¿Hubo quema de rastrojo?",
+        "resultado": "NO",
+        "evidencia": [
+          "Eventos de dNBR baja con NBR mediano sobre el departamento — sin quema significativa",
+          "NBR mediano (0.12) en rango departamental (0.05)"
+        ]
+      }
+    ],
+    "conclusion": "Las imágenes satelitales del período 2023-10-01 a 2024-04-30 son consistentes con prácticas de siembra directa y cobertura vegetal permanente en el lote analizado (General San Martin, Cordoba), sin evidencia de labranza convencional ni quema de rastrojo.",
+    "confianza": {
+      "score": 99,
+      "categoria": "ALTA",
+      "requiere_revision": false,
+      "detalle": [
+        {
+          "componente": "Disponibilidad de datos",
+          "puntaje": 24,
+          "nota": "17 obs, 1 meses con gaps"
+        },
+        {
+          "componente": "Convergencia SAR/óptico",
+          "puntaje": 25,
+          "nota": "Indicadores convergentes"
+        },
+        {
+          "componente": "Consistencia temporal",
+          "puntaje": 25,
+          "nota": "0 caída(s) abrupta(s) detectada(s)"
+        },
+        {
+          "componente": "Posición zonal",
+          "puntaje": 25,
+          "nota": "z-score = +0.57 vs departamento"
+        }
+      ]
+    }
+  },
+  "imagenes": {
+    "bbox": {
+      "west": -63.31924748,
+      "east": -63.28889461000001,
+      "south": -32.26304328000002,
+      "north": -32.23272264999998
+    }
+  },
+  "metadata": {
+    "superficie_ha": 495.5,
+    "centroide_lat": -32.2475,
+    "centroide_lon": -63.3039,
+    "poligono_coords": [
+      [
+        -63.31924748,
+        -32.24957453
+      ],
+      [
+        -63.30734865,
+        -32.26304328
+      ],
+      [
+        -63.29790123,
+        -32.25523352
+      ],
+      [
+        -63.29753661,
+        -32.25523771
+      ],
+      [
+        -63.29543305,
+        -32.25349843
+      ],
+      [
+        -63.29496117,
+        -32.25364237
+      ],
+      [
+        -63.29451754,
+        -32.25165661
+      ],
+      [
+        -63.29303111,
+        -32.24500195
+      ],
+      [
+        -63.28984487,
+        -32.2451979
+      ],
+      [
+        -63.28889461,
+        -32.24139664
+      ],
+      [
+        -63.30217023,
+        -32.23272265
+      ],
+      [
+        -63.31924748,
+        -32.24957453
+      ]
+    ],
+    "fecha_inicio": "2023-10-01",
+    "fecha_fin": "2024-04-30",
+    "fecha_procesamiento": "2026-03-23 07:38"
+  }
+}

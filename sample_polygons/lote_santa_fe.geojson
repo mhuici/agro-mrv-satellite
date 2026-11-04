@@ -1,0 +1,19 @@
+{
+  "type": "Feature",
+  "properties": {
+    "nombre": "Lote prueba - zona Casilda, Santa Fe",
+    "superficie_aprox_ha": 150,
+    "uso": "Polígono de prueba para desarrollo del pipeline",
+    "nota": "Coordenadas en zona agrícola núcleo de la pampa húmeda"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-61.006, -32.994],
+      [-60.994, -32.994],
+      [-60.994, -33.006],
+      [-61.006, -33.006],
+      [-61.006, -32.994]
+    ]]
+  }
+}
